@@ -1,17 +1,47 @@
-/* placeholder */
 .wrapper {
-    background-color: rgb(173, 173, 173);
-    height: 7vw;
-    width: 100%
+  position: relative;
+  background-color: rgb(173, 173, 173);
+  height: 175px;
+  width: 100vw;
+  margin-bottom: 0px
 }
 
 .inner {
-    width: fit-content;
-    margin: 0 auto;
-    border: 1px solid /* this is just for positioning, remove for production push*/
-    /* align-content: left; */
-}
-
-.logo-and-left {
 
 }
+
+.logo {
+  width: fit-content;
+  /* margin-top: 50%;
+  margin-bottom: 50%; */
+  position: relative;
+  margin: 0 auto;
+  margin-top: -1%;
+  margin-bottom: 1.5%;
+  text-align: center;
+}
+
+.header-text {
+  position: relative;
+  margin-top: 1;
+  width: 100;
+}
+
+.nav-btns {
+  position: relative;
+  list-style: none;
+  font-size: 2em;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: -20vh;
+  margin-right: 5%
+  /* align-items: left; */
+}
+
+a {
+  color: blue;
+}
+
+/* .wrapper {
+  width: calc(100vw - (100vw - 100%));
+} */

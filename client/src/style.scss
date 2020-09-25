@@ -1,11 +1,7 @@
 .container{
-  width: 100%;
+  width: calc(100vw - (100vw - 100%));
   padding: 0px;
   margin: 0px;
-}
-
-.col-lg-6{
-  padding: 0px;
 }
 
 .hero-title{
@@ -24,7 +20,7 @@
 }
 
 .welcome-div{
-  padding: 5vh;;
+  padding: 5vh;
   text-align: center;
   background: lightgray;
 }
@@ -32,6 +28,18 @@
 .about-divider{
   height: 5vh;
   background: darkgray;
+}
+
+.divider-alt-color {
+  z-index: 2;
+  background-color: darkorange;
+  width: 30%;
+}
+
+#divider-text {
+  color: white;
+  float: right;
+  margin-right: 4%;
 }
 
 #about-heading{
@@ -45,8 +53,9 @@
 
 .footer{
   height: 10vh;
-  background: black;
   color: white;
   padding-top: 3vh;
   text-align: center;
+  align-content: center;
+  background: black;
 }
